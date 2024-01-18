@@ -10,13 +10,13 @@ class Animal {
 
 class Dog extends Animal {
 	bark(){
-		cosole.log("woof")
+		console.log("woof")
 	}
 }
 
 class Cat extends Animal {
 	purr(){
-		cosole.log("purr")
+		console.log("purr")
 	}
 }
 
