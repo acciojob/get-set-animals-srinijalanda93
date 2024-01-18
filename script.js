@@ -3,8 +3,11 @@ class Animal {
 	constructor(species){
 		this.sp=species
 	}
-	get makeSound(){
-		cosole.log("the sound it makes barking")
+	get species(){
+		return this.sp;
+	}
+	 makeSound(){
+		cosole.log(`the sound it makes ${this.sp}`)
 	}
 }
 
