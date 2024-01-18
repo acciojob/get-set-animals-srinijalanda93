@@ -1,9 +1,24 @@
 //complete this code
-class Animal {}
+class Animal {
+	constructor(species){
+		this.sp=species
+	}
+	get makeSound(){
+		cosole.log("the sound it makes barking")
+	}
+}
 
-class Dog extends Animal {}
+class Dog extends Animal {
+	bark(){
+		cosole.log("woof")
+	}
+}
 
-class Cat extends Animal {}
+class Cat extends Animal {
+	purr(){
+		cosole.log("purr")
+	}
+}
 
 // Do not change the code below this line
 window.Animal = Animal;
