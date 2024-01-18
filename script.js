@@ -7,7 +7,7 @@ class Animal {
 		return this.sp;
 	}
 	 makeSound(){
-		cosole.log(`the sound it makes ${this.sp}`)
+		console.log("makes sound")
 	}
 }
 
